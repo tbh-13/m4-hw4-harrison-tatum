@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif
+}
+
+.box-1 {
+    margin-right: auto;
+}
+
+.box-2 {
+    margin-left: auto;
+}
+
+body {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24'%3E%3Cg fill='%231c431f' fill-opacity='0.4'%3E%3Cpolygon fill-rule='evenodd' points='8 4 12 6 8 8 6 12 4 8 0 6 4 4 6 0 8 4'/%3E%3C/g%3E%3C/svg%3E");
+    background-color: #c6ddc3;
+}
+
+header {
+    background-color: #546452;
+    border-bottom: 3px solid #02451d;
+    height: 60px;
+}
+
+h1 {
+    color: black;
+    margin-top: 10px;
+    font-size: 32px;
+}
+
+h2 {
+    color: black;
+    margin-bottom: 10px;
+    font-size: 26px;
+}
+
+nav {
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+nav a {
+    color: black;
+    font-size: 20px;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 20px;
+    text-decoration: none;
+}
+
+.container {
+    display: flex;
+    justify-content: space-evenly;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+main.container {
+    padding: 30px;
+}
+
+section {
+    width: 600px;
+    background-color: #c6ddc3;
+    padding: 20px;
+}
+
+section img {
+    float: left;
+    margin: 0 20px 10px 0px;
+    border: 3px solid #02451d;
+}
+
+p {
+    line-height: 2.0;
+}
+
+aside {
+    width: 200px;
+    height: 100px;
+    background-color: #c6ddc3;
+    padding: 20px;
+    text-align: center;
+}
+
+aside a {
+    text-decoration: none;
+}
+
+footer {
+    background-color: #546452;
+    border-top: 3px solid #02451d;
+    text-align: center;
+    padding: 10px;
+    color: black;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+main::after {
+    content: "";
+    clear: both;
+    display: block;
+}
